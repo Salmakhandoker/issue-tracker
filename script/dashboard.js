@@ -14,7 +14,7 @@ document.getElementById("count").innerText = issues.length + " Issues"
 
 displayIssues(issues)
 
-}
+};
 
 window.onload = loadIssues
 
@@ -66,7 +66,7 @@ container.appendChild(card)
 
 })
 
-}
+};
 
 // active status
 const buttons = document.querySelectorAll(".tab-btn");
@@ -90,11 +90,11 @@ displayIssues(issues)
 return
 }
 
-const filtered = issues.filter(issue => issue.status === status)
+const filtered = issues.filter(issue => issue.status === status);
 
 displayIssues(filtered)
 
-}
+};
 
 
 /* SEARCH */
@@ -109,7 +109,7 @@ const data = await res.json()
 
 displayIssues(data.data)
 
-}
+};
 
 
 /* MODAL */
