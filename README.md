@@ -36,4 +36,48 @@ Cannot be redeclared or reassigned
 
 Must be initialized when declared.
 
+note:👉 In modern JavaScript, developers usually prefer const and let instead of var.
 
+
+Answer 2:
+
+The spread operator (...) is used to expand or spread elements of an array or object into individual elements.
+
+It is commonly used to:
+
+Copy arrays,
+
+Merge arrays or objects,
+
+Pass multiple arguments to functions.
+
+Answer 3:
+
+These are array methods used for iterating over arrays, but they serve different purposes.
+
+map()
+
+Used to transform each element
+
+Returns a new array
+
+filter()
+
+Used to select elements based on a condition
+
+Returns a new array
+
+forEach()
+
+Used to execute a function for each element
+
+Does not return a new array.
+
+Example:
+
+const numbers = [1,2,3,4];
+
+const doubled = numbers.map(n => n * 2);
+const even = numbers.filter(n => n % 2 === 0);
+
+numbers.forEach(n => console.log(n));
