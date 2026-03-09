@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+
 <!-- NAVBAR -->
 
 <nav class="navbar">
@@ -18,28 +19,13 @@
 
 <div class="search-box">
 
-<input type="text" id="searchInput" placeholder="Search issues">
+<input type="text" id="searchInput" placeholder="Search issues...">
 
-<button onclick="searchIssue()">Search</button>
+<button onclick="searchIssue()">+New Issue</button>
 </div>
 
 
 </nav>
-
-<!-- <div class="navbar">
-
-<h2>GitHub Issues Tracker</h2>
-
-<div>
-<input id="search" placeholder="Search issues">
-<button onclick="searchIssue()">Search</button>
-</div>
-
-</div> -->
-
-
-
-
 
 <div class="tabs">
 
@@ -70,7 +56,9 @@
 </div>
 
 </div>
+
 <!-- loading -->
+
  <div id="loader" style="display:none">Loading...</div>
 
 <!-- ISSUE CARDS -->
@@ -86,5 +74,6 @@
 
 
 <script src="script/dashboard.js"></script>
+
 </body>
 </html>

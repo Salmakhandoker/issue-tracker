@@ -69,6 +69,7 @@ container.appendChild(card)
 };
 
 // active status
+
 const buttons = document.querySelectorAll(".tab-btn");
 
 buttons.forEach(btn => {
@@ -146,7 +147,7 @@ document.getElementById("modalContent").innerHTML = `
 
 document.getElementById("modal").classList.remove("hidden")
 
-}
+};
 
 function closeModal(){
 
